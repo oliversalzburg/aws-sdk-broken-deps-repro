@@ -1,0 +1,14 @@
+{
+  "name": "aws-sdk-broken-deps-repro",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^1.0.0-gamma.10",
+    "@aws-sdk/s3-request-presigner": "^1.0.0-gamma.9"
+  },
+  "devDependencies": {
+    "@yarnpkg/pnpify": "^2.2.1",
+    "typescript": "^4.0.3"
+  }
+}
